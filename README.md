@@ -1,12 +1,12 @@
 # student-performance-ml
 This is my first attempt of an unguided ML project, my goal was to build strong intuition around EDA, feature engineering, cross-validation, and model comparison.
 **Dataset**
-	•	Type: Tabular, structured data
-	•	Target variable: Final performance score (continuous)
-	•	Features include:
-	•	Academic history (e.g. previous scores)
-	•	Behavioral indicators (e.g. study hours)
-	•	Categorical attributes (e.g. extracurricular activities)
+	- Type: Tabular, structured data
+	- Target variable: Final performance score (continuous)
+	- Features include:
+		- Academic history (e.g. previous scores)
+		- Behavioral indicators (e.g. study hours)
+		- Categorical attributes (e.g. extracurricular activities)
 This was a regression problem since the target is continuous, and I chose to compare between:
   - Ridge regression
   - Lasso regression
