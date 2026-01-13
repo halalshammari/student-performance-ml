@@ -14,6 +14,7 @@ This was a regression problem since the target is continuous, and I chose to com
   - Ridge regression
   - Lasso regression
   - Random forests
+
 With different hyperparameters optimized with GridSearchCV.
 After inspecting the data and performing GridSearchCV, a random forest was the best for my task.
 Then after choosing, I compared the forest's performance against a baseline (which in this case is the mean since our error was calculated using MSE and RMSE.)
